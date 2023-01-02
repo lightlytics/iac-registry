@@ -1,7 +1,7 @@
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
-![Logo](https://global-uploads.webflow.com/5f05d585ae7f3b0c47bc77a4/62e6da9069c3f35a1fc120be_ll-black.svg)
+![Logo](https://comeet-euw-app.s3.amazonaws.com/1966/e19647482945616043be876388c2faadc3595069)
 
 
 # IaC Registry
