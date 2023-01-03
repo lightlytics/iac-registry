@@ -1,7 +1,11 @@
+terraform {
+  required_providers {
+    aws        = "~> 3.70.0"
+  }
+}
+
 provider "aws" {
-  region     = "us-east-1"
-  access_key = "placeholder"
-  secret_key = "placeholder"
+  region  = "us-east-1"
 }
 
 locals {

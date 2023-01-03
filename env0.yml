@@ -1,0 +1,9 @@
+version: 2
+deploy:
+  steps:
+    terraformPlan:
+      after:
+        - name: OPA
+          use: https://github.com/lightlytics/env0-lightlytics-plugin
+          inputs:
+            directory: ./aws/vpc

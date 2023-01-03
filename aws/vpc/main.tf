@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    aws        = "~> 3.70.0"
+  }
+}
+
+provider "aws" {
+  region  = "us-east-1"
+}
 #######################Create VPC with all needed network elements########################
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
