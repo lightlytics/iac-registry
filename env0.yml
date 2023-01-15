@@ -3,7 +3,7 @@ deploy:
   steps:
     terraformPlan:
       after:
-        - name: OPA
+        - name: Lightlytics
           use: https://github.com/lightlytics/env0-lightlytics-plugin
           inputs:
             directory: ./aws/vpc
